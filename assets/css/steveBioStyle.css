@@ -1,0 +1,97 @@
+#topBar, #btmBar {
+    height: 5px;
+    background-color: #a24aaa;
+}
+
+#btmBar1 {
+    height: 40px;
+    background-color: grey;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:row;
+}
+
+#bioMainDiv {
+    height: auto;
+    padding: 0px;
+}
+
+#bioContainerRow, body {
+    height: auto;
+    background-color: rgb(230, 238, 240)
+}
+
+#picBtnRow {
+    height: auto;
+    padding-right: 60px;
+}
+
+#headerAboutMeCol {
+    height: auto;
+}
+
+#headshotRow {
+    Height: auto;
+}
+
+#headshotCol {
+    height: auto;
+}
+
+#headShot {  
+        content: "";
+        background: url("C:/Users/archi/Desktop/codingbootcamp/revisedPortfolio/revised-bio/assets/images/steveheadshot.png") no-repeat;      
+        width: 200px;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+#contactBtn, #emailBtn, #projectBtn, #resumeBtn {
+    background-color: rgb(231, 180, 231);
+}
+
+h1 {
+    background-color: #a24aaa;
+    color: white; 
+}
+
+#nameRow {
+    margin-top: 10px;
+}
+
+#linkedinCol {          
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: center;
+}
+
+#githubCol {         
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: center;
+}
+
+#linkedinLogoBtn {
+    content: "";
+    background: url("C:/Users/archi/Desktop/codingbootcamp/revisedPortfolio/revised-bio/assets/images/In-2C-66px-R.png") no-repeat;
+    width: 66px;
+    height: 66px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#githubLogoBtn {
+    content: "";
+    background: url("C:/Users/archi/Desktop/codingbootcamp/revisedPortfolio/revised-bio/assets/images/GitHub-Mark-64px.png") no-repeat;
+    width: 64px;
+    height: 64px;
+    margin: 0px;
+    padding: 0px;
+}
+
