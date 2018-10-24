@@ -10,7 +10,7 @@
 </head>
 <body>   
     <div id='topBar'></div> <!--blank colored bar (aesthetic)-->
-    <div class="container" id='bioMainDiv'>
+    <div class="container" id='bioMainDiv'> <!--containing div for the page-->
         <div class="row" id='bioContainerRow'>
             <div class="col-lg-3" id='picBtnsBox'> 
                 <div class='row' id='picBtnRow'>
@@ -60,6 +60,17 @@
             <p>Copyright Steve Merrell 2018</p>         
         </div>
 
+<!-- contact info modal -->
+<div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">C: XXX-XXX-XXXX</a> 
+        <a href="#">E: test@example.com</a>        
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()">open</span>
+   
+    <script src="assets/javascript/steveBioApp.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
